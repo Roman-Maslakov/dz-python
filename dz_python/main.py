@@ -1,5 +1,7 @@
+import random
+
 n = int(input('Введите количество элементов в массиве -> '))
-num_list = [i for i in range(1, n + 1)]
+num_list = [random.randint(1, 100) for i in range(1, n + 1)]
 print(num_list)
 x = int(input('Введите число Х -> '))
 count = 0
